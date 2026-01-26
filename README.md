@@ -29,7 +29,9 @@ Timing comparison of parameterized Carry Lookahead Adder (CLA) and Ripple Carry 
 ## RESULTS
 The following plot shows the gate-level STA DELAY comparison between CLA and RCA across multiple bit-widths
 
-![STA delay vs bit-width (RCA vs CLA)](analysis/delay_vs_bitwidth(rca_vs_cla).png)
+<p align="center">
+  <img src="analysis/delay_vs_bitwidth(rca_vs_cla).png" width="600">
+</p>
 
 The results are consistent with the expected linear delay growth for RCA and sub-linear delay growth for CLA according to their respective carry propagation methods
 
