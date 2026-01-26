@@ -1,3 +1,4 @@
+%MATLAB has been used to visualize the delay results for each bit-width got after STA 
 clc;
 clear all;
 close all;
