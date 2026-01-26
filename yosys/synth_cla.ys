@@ -1,0 +1,9 @@
+read_verilog CLA_parameterized.v
+hierarchy -top CLA_parameterized
+proc
+opt
+techmap
+opt
+abc -liberty ~/GF180_libs/gf180mcu_fd_sc_mcu7t5v0__ss_125C_1v62.lib 
+stat -liberty ~/GF180_libs/gf180mcu_fd_sc_mcu7t5v0__ss_125C_1v62.lib
+write_verilog netlist_8_bit.v       #netlist for 8-bit CLA...have done for 4,16 and 32 in the same manner
