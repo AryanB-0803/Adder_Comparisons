@@ -40,7 +40,7 @@ The following plot shows the power consumption comparison between CLA and RCA ac
   <img src="analysis/power_consumption_vs_bitwidth(rca_vs_cla).png" width="500">
 </p>
 
-The following plot shows the area comparison between CLA and RCA across multiple bit-widths
+The following plot shows the area comparison between CLA and RCA across multiple bit-widths. The area values are obtained from Yosys synthesis results
 <p align="center">
   <img src="analysis/area_vs_bitwidth(rca_vs_cla).png" width="500">
 </p>
