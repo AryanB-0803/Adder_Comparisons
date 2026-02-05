@@ -1,0 +1,14 @@
+clc;
+clear all;
+close all;
+bits = [4 8 16 32];
+rca = [395.1360 790.2720 1589.3248 3187.4304];
+cla = [395.1360 1016.3776 2636.4352 11632.3648];
+plot(bits,rca,'cyan-*',bits,cla,'y-pentagram');
+text(bits,rca,string(rca),'VerticalAlignment','top','HorizontalAlignment','left');
+text(bits,cla,string(cla),'VerticalAlignment','baseline',HorizontalAlignment='right');
+grid on;
+xlabel('Number of Bits');
+ylabel('Area acc to gf180mcu ss corner');
+title('area vs bits');
+legend('RCA', 'CLA','Location','northwest');
